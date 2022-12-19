@@ -19,15 +19,24 @@
 // }
 
 // print 1 to 5 after each sec with var
-function a(){
-    for(var i=1;i<=5;i++){
-        function demo(x){
-            setTimeout(function(){
-                console.log(x)
-            },x*1000)
-        }
-       demo(i);
-    }
-    console.log("welcome to js")
+// function a(){
+//     for(var i=1;i<=5;i++){
+//         function demo(x){
+//             setTimeout(function(){
+//                 console.log(x)
+//             },x*1000)
+//         }
+//        demo(i);
+//     }
+//     console.log("welcome to js")
+// }
+// a()
+
+console.log("first")
+function abc() {
+    setTimeout(function a() {
+        console.log("hey");
+    },0)
 }
-a()
+abc()
+console.log("Last")
